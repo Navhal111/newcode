@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item
+        android:id="@+id/rate_us"
+        android:title="Rate Us" />
+    <item
+        android:id="@+id/share"
+        android:title="Share" />
+    <item
+        android:id="@+id/more"
+        android:title="More" />
+    <item
+        android:id="@+id/privicy_police"
+        android:title="Privacy Policy" />
+</menu>

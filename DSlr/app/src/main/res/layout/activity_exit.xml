@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llConfirmExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/value_5"
+        android:layout_marginLeft="@dimen/value_10"
+        android:layout_marginRight="@dimen/value_10"
+        android:layout_marginTop="@dimen/value_5"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="Do You Want to Exit ?"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/value_30"
+            android:layout_marginRight="@dimen/value_30"
+            android:layout_marginTop="@dimen/value_5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnyes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/yes_bg"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/value_10"
+                    android:paddingTop="@dimen/value_10"
+                    android:text="YES"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/value_15"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/btnNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/no_bg"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/value_10"
+                    android:paddingTop="@dimen/value_10"
+                    android:text="NO"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/value_15"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tt_Rate"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circle"
+                android:gravity="center"
+                android:text="Rate Us"
+                android:textColor="@color/white"
+                android:textSize="@dimen/value_18"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/mor_app"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/linebg"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center"
+            android:text="More Apps From Developers"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/value_16" />
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gvAppList"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/value_10"
+        android:layout_marginLeft="@dimen/value_10"
+        android:layout_marginRight="@dimen/value_10"
+        android:layout_weight="1"
+        android:background="@drawable/round_rect"
+        android:gravity="center_horizontal"
+        android:horizontalSpacing="@dimen/value_2"
+        android:numColumns="3"
+        android:paddingBottom="@dimen/value_5"
+        android:paddingTop="@dimen/value_5"
+        android:scrollbars="none" />
+
+
+</LinearLayout>

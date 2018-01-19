@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_edit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pistalix.dslrcamera.dslrcamerahd.ImageEditActivity">
+
+    <RelativeLayout
+        android:id="@+id/mc_tb"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/value_5"
+        android:paddingRight="@dimen/value_8">
+
+        <ImageView
+            android:id="@+id/fback"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/value_5"
+            android:src="@drawable/ic_arrow_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_save"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/value_3"
+            android:src="@drawable/ic_save" />
+
+        <ProgressBar
+            android:id="@+id/progressbar1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <FrameLayout
+                    android:id="@+id/imageFrame"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                    <pistalix.dslrcamera.dslrcamerahd.Vignette.ImageViewVignette
+                        android:id="@+id/images"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:scaleType="fitXY" />
+                    <!--<ImageView-->
+                    <!--android:id="@+id/ivShow"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_gravity="center"-->
+                    <!---->
+                    <!--android:src="@mipmap/ic_launcher" />-->
+
+                    <ImageView
+                        android:id="@+id/overlayImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:alpha="0.2"
+                        android:scaleType="fitXY" />
+                </FrameLayout>
+
+                <pistalix.dslrcamera.dslrcamerahd.HorizontalListView
+                    android:id="@+id/Grid_OverLay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/colorPrimaryblur"
+                    android:scrollbars="none"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/llMainSticker"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:background="@color/colorPrimaryblur"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/value_5"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/llHLSticker"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/HlBack"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/ovel"
+                            android:rotation="270"
+                            android:src="@drawable/ic_back_arrow"
+                            android:tint="@color/white" />
+
+                        <pistalix.dslrcamera.dslrcamerahd.HorizontalListView
+                            android:id="@+id/HLSticker"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_gravity="center"
+                            android:scrollbars="none">
+
+                        </pistalix.dslrcamera.dslrcamerahd.HorizontalListView>
+                    </LinearLayout>
+
+                    <HorizontalScrollView
+                        android:id="@+id/HSSticker"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/sticker_type_08"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/emoji_001" />
+
+                            <ImageView
+                                android:id="@+id/sticker_type_05"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/love_21" />
+
+                            <ImageView
+                                android:id="@+id/sticker_type_01"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/sticker_type_01" />
+
+                            <ImageView
+                                android:id="@+id/sticker_type_02"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/sticker_type_02" />
+
+                            <ImageView
+                                android:id="@+id/sticker_type_03"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/sticker_type_03" />
+
+                            <ImageView
+                                android:id="@+id/sticker_type_04"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/sticker_type_04" />
+
+
+                            <ImageView
+                                android:id="@+id/sticker_type_06"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/monster_01" />
+
+                            <ImageView
+                                android:id="@+id/sticker_type_07"
+                                android:layout_width="50dp"
+                                android:layout_height="45dp"
+                                android:padding="@dimen/value_3"
+                                android:src="@drawable/candy_01" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llVignette"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/colorPrimaryblur"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:id="@+id/llseekbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/value_10"
+                            android:padding="@dimen/value_5"
+                            android:src="@drawable/ic_center_focus"
+                            android:tint="@color/white" />
+
+                        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                            android:id="@+id/seekBar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            app:dsb_indicatorColor="@color/colorPrimary"
+                            app:dsb_max="100"
+                            app:dsb_min="1"
+                            app:dsb_progressColor="@color/white"
+                            app:dsb_rippleColor="@color/colorPrimary"
+                            app:dsb_trackColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llseekbar2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/value_10"
+                            android:padding="@dimen/value_5"
+                            android:src="@drawable/ic_center_focus_weak"
+                            android:tint="@color/white" />
+
+                        <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                            android:id="@+id/seekBar2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:visibility="visible"
+                            app:dsb_indicatorColor="@color/colorPrimary"
+                            app:dsb_max="100"
+                            app:dsb_min="1"
+                            app:dsb_progressColor="@color/white"
+                            app:dsb_rippleColor="@color/colorPrimary"
+                            app:dsb_trackColor="@color/white" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Iv_Intensity"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:padding="@dimen/value_5"
+                                android:src="@drawable/ic_center_focus"
+                                android:tint="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Iv_Feather"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:padding="@dimen/value_5"
+                                android:src="@drawable/ic_center_focus_weak"
+                                android:tint="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/iv_color"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:padding="@dimen/value_5"
+                                android:src="@drawable/colorpicker" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_effect_list"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:gravity="center"
+                    android:visibility="visible">
+
+                    <HorizontalScrollView
+                        android:id="@+id/HL_Effact"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimaryblur"
+                        android:scrollbars="none"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:id="@+id/lin_effects"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/ef_original"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef1"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef2"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/ef4"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef5"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef6"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef7"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef8"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/ef9"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef10"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef11"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/ef12"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef13"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower"
+                                android:visibility="gone" />
+
+                            <ImageView
+                                android:id="@+id/ef14"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef15"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef16"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef17"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef18"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef19"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef20"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef21"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                            <ImageView
+                                android:id="@+id/ef22"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="@dimen/value_2"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/flower" />
+
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llbritness"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="@color/colorPrimaryblur"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/value_5">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/iv_briteness"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/briw" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/iv_Contrass"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/cont" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/iv_satchuation"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:src="@drawable/sat" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:id="@+id/sbBriteness"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:visibility="visible"
+                        app:dsb_indicatorColor="@color/colorAccent"
+                        app:dsb_max="130"
+                        app:dsb_min="0"
+                        app:dsb_progressColor="@color/white"
+                        app:dsb_rippleColor="@color/colorAccent"
+                        app:dsb_trackColor="@color/white" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:id="@+id/sbContrass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:visibility="gone"
+                        app:dsb_indicatorColor="@color/colorAccent"
+                        app:dsb_max="100"
+                        app:dsb_min="0"
+                        app:dsb_progressColor="@color/white"
+                        app:dsb_rippleColor="@color/colorAccent"
+                        app:dsb_trackColor="@color/white" />
+
+                    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                        android:id="@+id/sbsatwation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:visibility="gone"
+                        app:dsb_indicatorColor="@color/colorAccent"
+                        app:dsb_max="475"
+                        app:dsb_min="0"
+                        app:dsb_progressColor="@color/white"
+                        app:dsb_rippleColor="@color/colorAccent"
+                        app:dsb_trackColor="@color/white" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/greyblack"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_Vignette"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_vignette"
+                    android:tint="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_ColorEffact"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_exposure" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_effact"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="@dimen/value_3"
+                    android:src="@drawable/ic_effect" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_OverLy"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:padding="@dimen/value_3"
+                    android:src="@drawable/shape08_thum" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_sticker"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_smile" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_Text"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_font" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

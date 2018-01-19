@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DSLR Camera</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+    <string name="add_text">Add Text Here . . .</string>
+    <!--<string name="interstitial_full_screen">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="Ad_Mob_Native">ca-app-pub-9611503142284796/4618944081</string>
+    <string name="bannerads">ca-app-pub-9611503142284796/4618944081</string>
+    <string name="interstitial_full_screen">ca-app-pub-9611503142284796/4667702083</string>
+    <!--<string name="bannerads">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="virsion_url">https://infinitegeek.gitlab.io/appVersion/check.json</string>
+    <string name="applist">https://infinitegeek.gitlab.io/appVersion/applist.json</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+</resources>

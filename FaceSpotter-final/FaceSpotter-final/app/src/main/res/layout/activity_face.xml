@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/topLayout"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:keepScreenOn="true">
+<FrameLayout
+    android:id="@+id/capcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--android:layout_marginBottom="63dp"-->
+    <com.raywenderlich.facespotter.ui.camera.CameraSourcePreview
+      android:id="@+id/preview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+        <com.raywenderlich.facespotter.ui.camera.GraphicOverlay
+          android:id="@+id/faceOverlay"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+    </com.raywenderlich.facespotter.ui.camera.CameraSourcePreview>
+</FrameLayout>
+ <FrameLayout
+     android:id="@+id/capcher1"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+ </FrameLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+    <ImageButton
+      android:id="@+id/flipButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:src="@drawable/switch_cameras" />
+    <ImageButton
+        android:id="@+id/flipButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/switch_cameras" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/open_effect"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/sticker1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="EFFECT"
+                android:textColor="#fff"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

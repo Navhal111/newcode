@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/menu_item_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/demo_round_shape"
+        android:gravity="center"
+        android:text="ABC"
+        android:layout_gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp" />
+</LinearLayout>
+
+    <!-- From: file:/Users/wangjie/work/vcs_projects/android/AndroidBucket/res/layout/ab_drop_menu_item.xml -->

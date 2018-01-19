@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mirror Magic Camera</string>
+    <string name="offset">Offset</string>
+    <string name="radius">Redius</string>
+    <string name="threshold">Threshold</string>
+    <string name="processing">Processing</string>
+    <string name="warn_draw_path">Please Draw a closed path!!!</string>
+    <string name="undoing">Undoing</string>
+    <string name="redoing">Redoing</string>
+
+    <string name="AdMob_InterstitialAd">ca-app-pub-2677720467133163/4763946531</string>
+    <string name="bannerads">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="virsion_url">https://infinitegeek.gitlab.io/appVersion/check.json</string>
+    <string name="applist">https://infinitegeek.gitlab.io/appVersion/applist.json</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+</resources>
