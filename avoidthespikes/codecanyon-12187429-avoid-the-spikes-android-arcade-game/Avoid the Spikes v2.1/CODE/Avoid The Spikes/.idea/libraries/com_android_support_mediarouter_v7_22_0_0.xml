@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.android.support:mediarouter-v7-22.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.0.0.aar/bf3bd06c4070d150bb23dcc77923c845/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.0.0.aar/bf3bd06c4070d150bb23dcc77923c845/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.0.0.aar/bf3bd06c4070d150bb23dcc77923c845/jars/libs/internal_impl-22.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

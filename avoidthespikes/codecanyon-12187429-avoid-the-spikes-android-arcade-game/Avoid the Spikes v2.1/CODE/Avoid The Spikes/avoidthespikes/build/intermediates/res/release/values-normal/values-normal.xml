@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Android/AndroidStudioWorkspace/Avoid%20The%20Spikes/avoidthespikes/src/main/res/values-normal/dimens.xml -->
+    <eat-comment/>
+    <dimen name="button_circles_border">5dp</dimen>
+    <dimen name="instruction">27sp</dimen>
+    <dimen name="score">55sp</dimen>
+    <dimen name="share">25sp</dimen>
+    <dimen name="start">50sp</dimen>
+    <dimen name="subtitle">60sp</dimen>
+    <dimen name="title">50sp</dimen>
+    <dimen name="yes_no">30sp</dimen>
+</resources>

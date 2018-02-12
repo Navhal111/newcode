@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lime/Mitesh Games/New extra app/avoidthespikes/codecanyon-12187429-avoid-the-spikes-android-arcade-game/Avoid the Spikes v2.1/CODE/Avoid The Spikes/avoidthespikes/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/lime/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.0.0.aar/403f656770df8bec689b14a4a2e2fe19/res/values-sw600dp-v13/values.xml",
+                    "from": {
+                        "startLines": "4,5,8,11,12,13",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "280,350,645,929,1000,1068",
+                        "endColumns": "69,69,58,70,67,54",
+                        "endOffsets": "345,415,699,995,1063,1118"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,125,195,254,325,466",
+                        "endColumns": "69,69,58,70,67,54",
+                        "endOffsets": "120,190,249,320,388,516"
+                    }
+                },
+                {
+                    "source": "/home/lime/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.0.0.aar/bf3bd06c4070d150bb23dcc77923c845/res/values-sw600dp-v13/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "282",
+                        "endColumns": "72",
+                        "endOffsets": "350"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "393",
+                        "endColumns": "72",
+                        "endOffsets": "461"
+                    }
+                }
+            ]
+        }
+    ]
+}

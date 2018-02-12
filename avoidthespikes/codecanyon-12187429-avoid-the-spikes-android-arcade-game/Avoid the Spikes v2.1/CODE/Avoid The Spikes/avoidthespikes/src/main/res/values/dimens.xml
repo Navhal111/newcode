@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Galaxy ace, Galaxy S4, moto G size -->
+    <dimen name="title">45sp</dimen>
+    <dimen name="subtitle">55sp</dimen>
+    <dimen name="start">40sp</dimen>
+    <dimen name="instruction">30sp</dimen>
+    <dimen name="button_circles_border">5dp</dimen>
+    <dimen name="score">55sp</dimen>
+    <dimen name="yes_no">30sp</dimen>
+    <dimen name="share">25sp</dimen>
+    
+</resources>

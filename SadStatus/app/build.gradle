@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "pistalix.sadvideostatus.sadvideosong"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 16
+        versionName "16.0"
+    }
+
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+repositories {
+    maven { url "https://jitpack.io" }
+    mavenCentral()
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url "https://dl.bintray.com/drummer-aidan/maven" }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'org.jetbrains.anko:anko-common:0.8.3'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:cardview-v7:26.1.0'
+    compile 'com.google.android.gms:play-services-ads:11.6.0'
+    compile 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.linsea:universalvideoview:1.1.0@aar'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
+    compile 'com.ss.bottomnavigation:bottomnavigation:1.5.2'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'commons-io:commons-io:2.4'
+    compile 'com.github.johnpersano:supertoasts:2.0'
+    compile 'com.orhanobut:dialogplus:1.11@aar'
+    compile 'com.daimajia.numberprogressbar:library:1.4@aar'
+    implementation 'com.github.bumptech.glide:glide:4.3.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.3.1'
+    compile "com.google.android.gms:play-services-gcm:11.6.0"
+    implementation 'com.facebook.android:audience-network-sdk:4.27.0'
+    implementation 'com.google.ads.mediation:facebook:4.27.0.0'
+}
+apply plugin: 'com.google.gms.google-services'

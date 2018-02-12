@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lime/Mitesh Games/New extra app/avoidthespikes/codecanyon-12187429-avoid-the-spikes-android-arcade-game/Avoid the Spikes v2.1/CODE/Avoid The Spikes/avoidthespikes/build/intermediates/incremental/mergeDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "/home/lime/Mitesh Games/New extra app/avoidthespikes/codecanyon-12187429-avoid-the-spikes-android-arcade-game/Avoid the Spikes v2.1/CODE/Avoid The Spikes/avoidthespikes/src/main/res/values-small/dimens.xml",
+                    "from": {
+                        "startLines": "7,6,8,10,5,4,3,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "220,176,273,350,138,97,59,311",
+                        "endColumns": "51,42,36,36,36,39,36,37",
+                        "endOffsets": "267,214,305,382,170,132,91,344"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,107,150,187,224,261,301,338",
+                        "endColumns": "51,42,36,36,36,39,36,37",
+                        "endOffsets": "102,145,182,219,256,296,333,371"
+                    }
+                }
+            ]
+        }
+    ]
+}

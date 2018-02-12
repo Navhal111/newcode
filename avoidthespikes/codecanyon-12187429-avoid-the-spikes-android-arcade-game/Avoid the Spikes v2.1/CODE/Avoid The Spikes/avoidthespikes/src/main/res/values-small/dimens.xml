@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title">15sp</dimen>
+    <dimen name="subtitle">10sp</dimen>
+    <dimen name="start">15sp</dimen>
+    <dimen name="instruction">15sp</dimen>
+    <dimen name="button_circles_border">5dp</dimen>
+    <dimen name="score">20sp</dimen>
+    <dimen name="yes_no">17sp</dimen>
+    <dimen name="share">12sp</dimen>
+
+</resources>

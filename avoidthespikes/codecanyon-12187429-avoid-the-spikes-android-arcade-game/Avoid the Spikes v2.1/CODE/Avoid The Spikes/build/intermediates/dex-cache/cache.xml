@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-bbfbdf101222c4c9d1f2b321acae9402f3a80567.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-40afc174550a9f75a77cbe5152c9d990a413ac73.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-ea391b952ad69c5bb50e7bf44e1be146a80a5f26.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-3e5bbf6324ea290addd9023ac5fc2ea11ad1f904.jar" />
+    </item>
+    <item
+        jar="C:\Users\melvin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-089d759ba998becc5b768d115b4016cc666c88fe.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-e62ddc9efb3951b2b1d8ab309e5df24141424849.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-47a85cd973a3e93328f3ce7bef4144339281a68c.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-2599a250d0466862efa7a8b8a135a0361927fb77.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-79ee1c7f353ceae2dfff27e2a74fa71c218f765e.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-3036257faa74fd30d5e87dd1909756e146a4ef63.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-3b96900e03e8232c002f999772658b956ce3602a.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-45cced75133f15caa3c0043335544fe0ac173b02.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\internal_impl-22.0.0-6c2141b1a86bb9e3885bf82acfecd66182decacf.jar" />
+    </item>
+    <item
+        jar="C:\Users\melvin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\support-annotations-22.0.0-c2dfc57551c5b5567f1061371f95a60f64ac5eb5.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-14d5a5462e9827cccb6082894572464a9f6af178.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-798796c53d86244f1a34e46d2010a46999e766c3.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-a3181d6b306f03411059fdf3f27e2b7c076470ac.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-6669f12f68d843418b31bfda787c3071670ec92f.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-9cd3e590f6176f2ef7a3f7f5c51c2ecafcfc8d08.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-5d1eb3bba08ce8e5667be6acf3859a1152ca5467.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-5435bf93a7f2d8c85f8ffefb80f5bf1f32990bd9.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-57731953ab8c2704a40d0e2ba10932e5df10732f.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-a6410aad9474d2a2bdf151866ce1fdda64f4ec68.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-49b34c716802f2f95400a95e03aba2fc490edb70.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-b76c857d4d8d6a36a9087f5d43a5f45369bd2ccd.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-8357a87b3ae60c0df88311c671a3d3e8f455ea01.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-64a9f7bec4171cf6fd6f68b69abbb91b28f466b0.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-01bd5223c6470597a67e177907f4f8a3d0d666b1.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-6c5b8e239ee24c9c7f005beb6d20735866157642.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-db81f65928969db09a8f66e7b5c6a8d7f48a68a9.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-8e114778218f05330eb14752cb155f991228be34.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-678a6ad5bd6ddb2fd31c5f066e706f44841c1e1d.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\internal_impl-22.0.0-f384f89e7779a69a4ecad54f709f209a298e93d9.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\Avoid The Spikes\baseGameUtils\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f98e02261ae2d5e9987ecf235ce3814e511e47fb">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-c3abbe6ee53d4f8829147c42f06bf8ecf31c05e5.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-d1f66c770e889a497414be37c51ed343f5b599fb.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-5262b9ae2047257dee3a7fa1f4c689404dc31fea.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-60f41146f51f1e9dad2bb6cb00ed550634afda56.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-8d30fa9bbac000b4da6c29675b6c48b062ebb8f5.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\Avoid The Spikes\baseGameUtils\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="05ce11f5e4e23aef91503e0b00a75f3bf224d32b">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-f1020e00aaccf675b4bb8e7e6ad48bea89a25e7b.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-f3617a4533c4e66da5b4a5dd4127f7714d6e22db.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-043dafeda40f28c630ca5855f6bc45ddc9c8d0a3.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-d18b4c145a8e45a8909666a1b32a35ac64cf0548.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-a881a98893b40d6e403c30ced75d9b9df7b87b21.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-cef5984ea0d83303891a3a20982ef13ab522b83f.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-46e2d3093f94fb74778b7f62b5c42fec4a475cff.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-33a1fbf1f3429d0d3e45f6ce7a9b819b52d5df55.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-d9006d09823dbfb929a57257fed9ecd0efc26652.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-fa36c0ae89f5d8c4d43a87050c4ca6c0805a6dda.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-85541102177bd17a361bb0a777b82fb838c776bc.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-447fe8069d8ea8d2cce91c2649b99c89f7ad8b41.jar" />
+    </item>
+    <item
+        jar="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="D:\Android\AndroidStudioWorkspace\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\release\classes-fa46074d8576687cd449585156d993c7af889057.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-c4ce0d0d37ab191946e95f317ce58a1b96d7aad7.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-5feeb4dfb6b349a0aedb8fc834a14ddad6c0297e.jar" />
+    </item>
+    <item
+        jar="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="D:\Android\Software\Avoid the spikes\ENVATO\Avoid the Spikes v2.1\CODE\Avoid The Spikes\avoidthespikes\build\intermediates\pre-dexed\debug\classes-0eb1a41a2c446a55870217a55d324aba4a2517c0.jar" />
+    </item>
+
+</items>

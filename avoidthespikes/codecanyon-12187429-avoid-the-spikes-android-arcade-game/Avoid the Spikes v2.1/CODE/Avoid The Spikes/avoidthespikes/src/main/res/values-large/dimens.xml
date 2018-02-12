@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- nexus 7 size -->
+    <dimen name="title">80sp</dimen>
+    <dimen name="subtitle">110sp</dimen>
+    <dimen name="instruction">50sp</dimen>
+    <dimen name="start">70sp</dimen>
+    <dimen name="button_circles_border">15dp</dimen>
+    <dimen name="score">70sp</dimen>
+    <dimen name="yes_no">60sp</dimen>
+    <dimen name="share">40sp</dimen>
+
+</resources>

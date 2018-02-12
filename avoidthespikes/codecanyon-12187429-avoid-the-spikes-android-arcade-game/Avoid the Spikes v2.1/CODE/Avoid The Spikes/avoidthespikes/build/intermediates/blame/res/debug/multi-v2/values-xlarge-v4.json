@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lime/Mitesh Games/New extra app/avoidthespikes/codecanyon-12187429-avoid-the-spikes-android-arcade-game/Avoid the Spikes v2.1/CODE/Avoid The Spikes/avoidthespikes/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
+            "map": [
+                {
+                    "source": "/home/lime/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.0.0.aar/403f656770df8bec689b14a4a2e2fe19/res/values-xlarge-v4/values.xml",
+                    "from": {
+                        "startLines": "4,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "278,579,643,710,777,843,909",
+                        "endColumns": "76,63,66,66,65,65,54",
+                        "endOffsets": "350,638,705,772,838,904,959"
+                    },
+                    "to": {
+                        "startLines": "2,3,5,6,7,8,16",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,132,249,316,383,449,787",
+                        "endColumns": "76,63,66,66,65,65,54",
+                        "endOffsets": "127,191,311,378,444,510,837"
+                    }
+                },
+                {
+                    "source": "/home/lime/Mitesh Games/New extra app/avoidthespikes/codecanyon-12187429-avoid-the-spikes-android-arcade-game/Avoid the Spikes v2.1/CODE/Avoid The Spikes/avoidthespikes/src/main/res/values-xlarge/dimens.xml",
+                    "from": {
+                        "startLines": "9,8,10,12,7,6,5,11",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "261,217,315,393,179,137,98,354",
+                        "endColumns": "52,42,37,36,36,40,37,37",
+                        "endOffsets": "309,255,348,425,211,173,131,387"
+                    },
+                    "to": {
+                        "startLines": "4,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "196,515,558,596,633,670,711,749",
+                        "endColumns": "52,42,37,36,36,40,37,37",
+                        "endOffsets": "244,553,591,628,665,706,744,782"
+                    }
+                }
+            ]
+        }
+    ]
+}

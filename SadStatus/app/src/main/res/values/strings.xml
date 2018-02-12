@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sad Status</string>
+    <string name="interstial_ads">ca-app-pub-9611503142284796/2607169085</string>
+    <string name="banner_ads">ca-app-pub-9611503142284796/6175002717</string>
+    <string name="virsion_url">https://infinitegeek.gitlab.io/appVersion/check.json</string>
+    <string name="applist">https://infinitegeek.gitlab.io/appVersion/applist.json</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+    <!--<string name="interstial_ads">ca-app-pub-3940256099942544/1033173712</string>-->
+    <!--<string name="banner_ads">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--PL86DbUdlKu1NyYAcHiQ-aPVtYS4NGnU_o-->
+</resources>

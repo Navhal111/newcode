@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "580587938852",
+    "project_id": "sad-video"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580587938852:android:43a2be40e3077b01",
+        "android_client_info": {
+          "package_name": "pistalix.sadvideostatus.sadvideosong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580587938852-qcc4imk3qsito1h0ur514goicp77sjkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByioC4aBtRDeCvsRihVOFTysxAG2CyIf8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Avoid the Spikes Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Avoid the Spikes&rdquo; Documentation by &ldquo;Melvin Zammit&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Avoid the Spikes Android Arcade Game&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 20/07/2015<br>
+					By: Melvin Zammit<br>
+					Email: <a href="mailto:melvin@neurondigital.com">melvin@neurondigital.com</a><br>
+					Website: <a href="http://www.neurondigital.com">www.neurondigital.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">This is a template for an Android game. The aim of the player is to help the bird move up and avoid the spikes/obstacles. When the screen is tapped, the bird changes direction. Thanks for buying my code from CodeCanyon! </p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#customise">Step By Step Customisation</a></li>
+			<li><a href="#personalise">Personalising App</a></li>
+			<li><a href="#images">Editing Images</a></li>
+			<li><a href="#support">Support</a></li>
+		</ol>
+		
+
+
+		<!--A -customise _______________________________________________________________________________________________-->
+
+
+		<hr>
+		
+		<h3 id="customise"><strong>A) Step By Step Customisation</strong> - <a href="#toc">top</a></h3>
+		<ol>
+			<li><p><h2>Import into Android Studio</h2>
+			Open Android Studio, click on 'Open an Existing Android Studio Project', locate the contents of the 'CODE' file and click 'ok'.</p></li>
+			
+			<img src="assets/images/open.png" alt="Open App" width="700"/>
+
+			<li><p><h2>Test it!</h2>
+			Just hit the play button to test that everything is ok.</p></li>
+			
+			<img src="assets/images/run.png" alt="Open App"/>
+
+			<li><p><h2>Replace any PlaceHolder Images and Sound</h2>
+			In Android Studio you can change any images you wish. <b>At least make sure to change the icon</b>. To replace the images just copy and paste your new images in res/drawable. For the character, 4 different images are provided in the graphics folder. Just replace drawable/character.png with any of the 4 images you wish. The Sound fx/music are just placeholders. Feel free to replace them.</p></li>
+			
+			<img src="assets/images/images.png" alt="Open App" width="200"/>
+
+			<li><p><h2>Rename the App Package id</h2>
+			First rename the package id by right clicking on 'com.neurondigital' and selecting 'refactor' and 'rename' as shown below. Do the same for 'avoidthespikes'. The package name should be in this format: com.yourcompany.AppName</p></li>
+			
+			<img src="assets/images/rename1.png" alt="Rename" width="700"/>
+
+			<li><p>Open avoidthespikes/build.gradle and put in the same package id as before instead of the 'com.neurondigital.avoidthespikes'. This is shown below.</p>
+			
+			<img src="assets/images/rename2.png" alt="Rename" width="700"/></li>
+
+			<li><p><h2>Create an interstitial Ad on AdMob and paste the AD unit Id in the Strings.xml file (optional).</h2>
+			The Ad displays once before gameover. Make sure to add this to start making money from your App. The display rate can be changed from strings.xml from the ad_shows_every_X_gameovers parameter.</p></li>
+
+			<li><p><h2>Create an Banner Ad on AdMob and paste the AD unit Id in the Strings.xml file (otional).</h2>
+			The Ad displays in the bottom of the screen. Ideally it's either the banner or the interstitial ad, so you may wish to leave one of the IDs in strings.xml empty.</p></li>
+			
+			<img src="assets/images/ads.png" alt="Rename" width="700"/>
+			
+
+			<li><p><h2>Google Play Services (optional).</h2>
+			<p>The game template supports a top score leaderboard and 5 Achievements. To enable this feature, create the necessary leaderboard/achievements on Google Play. Then just copy the Generated App id and paste it in the Strings.xml file.</p>
+			<img src="assets/images/play.png" alt="Rename" width="700"/>
+
+			<p><h3>Google Play Services Leaderboard.</h3>
+			For the leaderboard. Create a leaderboard on Google Play. Then just copy and paste the generated leaderboard id in strings.xml:</p>
+
+			<img src="assets/images/leaderboard.png" alt="Rename" width="700"/>
+
+			<p><h3>Google Play Services Achievements.</h3>
+			The game template can unlock google play Achievements when the player collects a certain amount of coins. To enable this just create 5 achievements on Google Play Store and put the generated App id (same as leaderboard) and the 5 achievement ids strings.xml:</p></li>
+
+			<img src="assets/images/achievements.png" alt="Rename" width="700"/>
+
+			<li><p><h2>Google Analytics (optional).</h2>
+			Create a new google Analytics property and you'll be provided with a tracking id which should have this format: "UA-xxxxxxxx-xx". Put this tracking id in strings.xml in the 'trackingid' field.</p></li>
+
+			<img src="assets/images/analytics.png" alt="Rename" width="700"/>
+
+			<li><p><h2>Export your App as a .APK for Google Play</h2>
+			Go to Build| Generate Signed APK... and export the .APK file.</p></li>
+
+			<img src="assets/images/export.png" alt="Rename" width="700"/>
+		
+
+		</ol>
+
+
+
+		<!--A -personalise _______________________________________________________________________________________________-->
+		<hr>
+
+		<h3 id="personalise"><strong>B) Personalising App</strong> - <a href="#toc">top</a></h3>
+		<ol>
+			<li>
+				<h2>TODO Tags</h2>
+				<p>In the code you will find TODO tags. Make sure to check them out. They indicate the places that you usually need to change something, although in this app most of the things that would be changed are all in the strings.xml file.</p>
+			</li>
+
+			<li>
+				<p><h2>Change Colors</h2>
+				Open Strings.xml. In the code search for the following snippet. Change the color codes, to change the respective colors.</p>
+
+				<img src="assets/images/colors.png" alt="colors" width="700"/>
+			</li>
+
+			<li>
+				<p><h2>Change Game Variables</h2>
+				Open Configuration.java. Here you can modify things like the coin probability to show up, character speed, character tail size....</p>
+
+				<img src="assets/images/variables.png" alt="variables" width="700"/>
+			</li>
+
+		</ol>
+
+		
+		<!--A -personalise _______________________________________________________________________________________________-->
+		<hr>
+
+		<h3 id="images"><strong>B) Editing Images</strong> - <a href="#toc">top</a></h3>
+		<p>Most of the images are included in the design.ai file. So feel free to edit them as you like. Remember to keep the same image resolution before replaceing it with the one in Android Studio.</p>
+
+				<!--A -Editing Images _______________________________________________________________________________________________-->
+		<hr>
+
+		<h3 id="support"><strong>B) Support</strong> - <a href="#toc">top</a></h3>
+		<p>Thanks for buying this Template. If you need any support please check the FAQ questions of the item on codecanyon. If you dont find anything there or the comments of the item please ask your question in the comments for others to see. Also feel free to contact me by email: melvin@neurondigital.com.</p>
+
+<p>I am building an email list. This would be used to inform you next time I create an App to be released on CodeCanyon. If you like to register feel free to do so here:<a href="http://www.neurondigital.com/subscribe/index.html">Subscribe</a></p>
+
+<p>Thanks,</p>
+
+		
+		<p class="append-bottom alt large"><strong>Melvin Zammit - Neuron Digital</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

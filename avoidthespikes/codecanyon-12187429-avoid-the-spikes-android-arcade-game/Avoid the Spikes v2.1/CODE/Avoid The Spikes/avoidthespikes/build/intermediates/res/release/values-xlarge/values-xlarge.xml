@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Android/AndroidStudioWorkspace/Avoid%20The%20Spikes/avoidthespikes/src/main/res/values-xlarge/dimens.xml -->
+    <eat-comment/>
+    <dimen name="button_circles_border">25dp</dimen>
+    <dimen name="instruction">75sp</dimen>
+    <dimen name="score">120sp</dimen>
+    <dimen name="share">50sp</dimen>
+    <dimen name="start">95sp</dimen>
+    <dimen name="subtitle">140sp</dimen>
+    <dimen name="title">100sp</dimen>
+    <dimen name="yes_no">80sp</dimen>
+</resources>
