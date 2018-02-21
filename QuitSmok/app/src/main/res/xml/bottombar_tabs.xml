@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_outsmocking"
+        icon="@drawable/ic_alarm"
+        title="Quit smoking"
+        inActiveColor="#40241a"
+        activeColor="#ffffff"
+        barColorWhenSelected="#6d4c41"
+        badgeBackgroundColor="#963e3e"/>
+    <tab
+        id="@+id/tab_health"
+        icon="@drawable/ic_favorite_border"
+        title="Health"
+        inActiveColor="#40241a"
+        activeColor="#ffffff"
+        barColorWhenSelected="#6d4c41"
+        badgeBackgroundColor="#963e3e"/>
+    <tab
+        id="@+id/tab_awards"
+        icon="@drawable/ic_redeem"
+        title="Awards"
+        inActiveColor="#40241a"
+        activeColor="#ffffff"
+        barColorWhenSelected="#6d4c41"
+        badgeBackgroundColor="#963e3e"/>
+    <tab
+        id="@+id/tab_settings"
+        icon="@drawable/ic_build"
+        title="Settings"
+        inActiveColor="#40241a"
+        activeColor="#ffffff"
+        barColorWhenSelected="#6d4c41"
+        badgeBackgroundColor="#963e3e"/>
+</tabs>

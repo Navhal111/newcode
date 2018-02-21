@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appteve.quitsmok">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SetDateActivity" />
+        <activity android:name=".CigaretPerDayActivity" />
+        <activity android:name=".CigaretsInPackActivity" />
+        <activity android:name=".YearsSmokActivity" />
+        <activity android:name=".PricePackActivity" />
+        <activity android:name=".CurrencyActivity" />
+        <activity android:name=".HealthActivity" />
+        <activity android:name=".AwardsActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".UserDataActivity" />
+        <activity android:name=".BuyPointsActivity" />
+        <activity android:name=".DisclamerActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Quit Smok</string>
+    <string name="header_cig_per_day_text">Cigarettes per day</string>
+    <string name="title_set_date">Set date end</string>
+    <string name="header_cig_in_pack">Cigarettes in pack </string>
+    <string name="choose_btn">Choose date end</string>
+    <string name="next">Next</string>
+    <string name="years_smok">How many years have you smoked?</string>
+    <string name="first_screen_text">You have decided to quit smoking? We congratulate you. It\'s time to quit a bad habit.</string>
+    <string name="price_pack">Price for one pack</string>
+    <string name="currency_btn">Choose currency</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_main_text">You do not smoke:</string>
+    <string name="day"> d </string>
+    <string name="hours"> h </string>
+    <string name="min"> m </string>
+    <string name="sec"> s </string>
+    <string name="cig_not_smoked_header">Not smoked:</string>
+    <string name="money_saved_header">Money saved:</string>
+    <string name="header_2">What will your get in return?</string>
+    <string name="one_week">1 Week</string>
+    <string name="one_month">1 Month</string>
+    <string name="one_year">1 Year</string>
+    <string name="five_years">5 Years</string>
+    <string name="ten_years">10 Years</string>
+    <string name="twenty_years">20 Years</string>
+    <string name="day_save">day save</string>
+    <string name="life_lost_header">Life lost:</string>
+    <string name="days">Days</string>
+    <string name="hours_a">Hours</string>
+    <string name="cig_smoked">Cigarrets smoked:</string>
+    <string name="money_wasted_header">Money Wasted:</string>
+    <string name="header_text_01_health">After 20 minutes: Blood pressure and heart rate decreasing</string>
+    <string name="progress">In progress...</string>
+    <string name="done">Done.</string>
+    <string name="header_8hours">After 8 hours: carbon monoxide level in the blood is returned to normal</string>
+    <string name="header_24_hours">After 24 hours: Chance of heart attack decreases</string>
+    <string name="header_48_hours">After 48 hours: Your ability to taste and smell begins to return to normal</string>
+    <string name="header_72_hours">After 72 hours: your airways begin to relax</string>
+    <string name="header_12_weeaks">After 12 weeks: Circulation improves and lung function is enhanced</string>
+    <string name="header_9_Month">After 9 months: Coughing and shortness of breath decrease</string>
+    <string name="header_5_years">After 5 years: Risk of death from cardiovascular disease is reduced.</string>
+    <string name="header_10_years">After 10 years: Risk of lung cancer is reduced by half.</string>
+    <string name="user_health">USER HEALTH</string>
+    <string name="user_awards">USER AWARDS</string>
+    <string name="setting_change_user_data">Change user data</string>
+    <string name="user_point_text">User points: </string>
+    <string name="ad_onn">Ads in the app: ON</string>
+    <string name="ad_off">Ads in the app: OFF</string>
+    <string name="disclamer">Disclamer</string>
+    <string name="change_data">Change data</string>
+    <string name="buy_point">Buy points</string>
+    <string name="remove_ads">Remove ADs</string>
+    <string name="disclamer_btn">Read this</string>
+    <string name="removed">Removed</string>
+    <string name="restore_ad">Restore Ad</string>
+    <string name="buy_10_points">Buy 10 points</string>
+    <string name="buy_20_points">Buy 20 points</string>
+    <string name="buy_40_points">Buy 40 points</string>
+    <string name="date_end">Data end: </string>
+    <string name="change_date_btn">Change date</string>
+    <string name="change_cuttency_btn">Change currency</string>
+    <string name="change_user_datas_allert_title">Change the data?</string>
+    <string name="change_user_data_message">We know that you can smoke again, so we came up with motivation. Your account will be charged 9 points. Do you agree?</string>
+    <string name="positive_answer">Yes</string>
+    <string name="negative_answer">No</string>
+    <string name="title_warning_point">Ups...</string>
+    <string name="disclamer_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper nibh et porta ullamcorper. Nam scelerisque turpis eu urna rhoncus porta. Fusce risus arcu, maximus quis velit non, placerat pharetra neque. Sed vel dui hendrerit, congue nibh pretium, sodales magna. Nunc vulputate ipsum nec leo fringilla ornare. Suspendisse at porttitor tellus. Morbi volutpat felis vel consectetur sodales. Aliquam mollis ipsum vel justo euismod, sit amet fringilla metus pretium. Nunc scelerisque in turpis a finibus. Aenean elementum viverra velit.
+
+</string>
+    <string name="title_add_awards">Add new award</string>
+    <string name="award_add_message">Add the name of the award and the price</string>
+    <string name="hint_award_title">Example: Music Player</string>
+    <string name="hint_award_price">Example: 120</string>
+
+    <string name="message_warning_points">Apparently you do not have enough points. Want to buy?</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-6797096502373603/6237839375</string>
+
+
+    <string name="title_activity_cig_per_day">CigPerDayActivity</string>
+
+    <string-array name="sample_array">
+        <item>USD</item>
+        <item>Rs</item>
+        <item>RUB</item>
+    </string-array>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

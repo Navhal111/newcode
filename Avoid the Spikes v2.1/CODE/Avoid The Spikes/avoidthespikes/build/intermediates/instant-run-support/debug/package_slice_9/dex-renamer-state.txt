@@ -1,0 +1,4 @@
+#Wed Feb 21 11:48:22 IST 2018
+base.0=/home/lime/Mitesh Games/New extra app/avoidthespikes/codecanyon-12187429-avoid-the-spikes-android-arcade-game/Avoid the Spikes v2.1/CODE/Avoid The Spikes/avoidthespikes/build/intermediates/transforms/dexMerger/debug/48
+renamed.0=classes.dex
+file.0=/home/lime/Mitesh Games/New extra app/avoidthespikes/codecanyon-12187429-avoid-the-spikes-android-arcade-game/Avoid the Spikes v2.1/CODE/Avoid The Spikes/avoidthespikes/build/intermediates/transforms/dexMerger/debug/48/classes.dex

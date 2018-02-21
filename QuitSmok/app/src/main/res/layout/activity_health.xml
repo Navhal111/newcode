@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_health"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.appteve.quitsmok.HealthActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimaryDark">
+
+            <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg">
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/header1Text"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/center_bg"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fotter01Text"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="12dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/center_bg"
+                    android:typeface="sans" />
+
+                <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                    android:id="@+id/progress01"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:max="100"
+                    app:ringColor="@color/colorPrimaryDark"
+                    app:ringProgressColor="@color/center_bg"
+                    app:ringWidth="5dp"
+                    app:style="STROKE"
+                    app:textColor="@color/colorPrimary"
+                    app:textIsShow="true"
+                    app:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/counter01"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/center_bg"
+                    android:typeface="sans" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/layout_bg">
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/header8Hours"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="6dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/center_bg"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fotter8Hours"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="12dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/center_bg"
+                    android:typeface="sans" />
+
+                <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                    android:id="@+id/progress8Hours"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    app:max="100"
+                    app:ringColor="@color/colorPrimaryDark"
+                    app:ringProgressColor="@color/center_bg"
+                    app:ringWidth="5dp"
+                    app:style="STROKE"
+                    app:textColor="@color/colorPrimary"
+                    app:textIsShow="true"
+                    app:textSize="16sp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/counter8Hours"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textAlignment="center"
+                    android:textColor="@color/center_bg"
+                    android:typeface="sans" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header24Hours"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fotter24Hours"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                        android:id="@+id/progress24Hours"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:max="100"
+                        app:ringColor="@color/colorPrimaryDark"
+                        app:ringProgressColor="@color/center_bg"
+                        app:ringWidth="5dp"
+                        app:style="STROKE"
+                        app:textColor="@color/colorPrimary"
+                        app:textIsShow="true"
+                        app:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/counter24Hours"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header48Hours"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fotter48Hours"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                        android:id="@+id/progress48Hours"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:max="100"
+                        app:ringColor="@color/colorPrimaryDark"
+                        app:ringProgressColor="@color/center_bg"
+                        app:ringWidth="5dp"
+                        app:style="STROKE"
+                        app:textColor="@color/colorPrimary"
+                        app:textIsShow="true"
+                        app:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/counter48Hours"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header72Hours"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fotter72Hours"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                        android:id="@+id/progress72Hours"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:max="100"
+                        app:ringColor="@color/colorPrimaryDark"
+                        app:ringProgressColor="@color/center_bg"
+                        app:ringWidth="5dp"
+                        app:style="STROKE"
+                        app:textColor="@color/colorPrimary"
+                        app:textIsShow="true"
+                        app:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/counter72Hours"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header12Weeks"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fotter12Weeks"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                        android:id="@+id/progress12Weeks"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:max="100"
+                        app:ringColor="@color/colorPrimaryDark"
+                        app:ringProgressColor="@color/center_bg"
+                        app:ringWidth="5dp"
+                        app:style="STROKE"
+                        app:textColor="@color/colorPrimary"
+                        app:textIsShow="true"
+                        app:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/counter12Weeks"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header9Month"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fotter9Month"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                        android:id="@+id/progress9Month"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:max="100"
+                        app:ringColor="@color/colorPrimaryDark"
+                        app:ringProgressColor="@color/center_bg"
+                        app:ringWidth="5dp"
+                        app:style="STROKE"
+                        app:textColor="@color/colorPrimary"
+                        app:textIsShow="true"
+                        app:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/counter9Month"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header5Years"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fotter5Years"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                        android:id="@+id/progress5Years"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:max="100"
+                        app:ringColor="@color/colorPrimaryDark"
+                        app:ringProgressColor="@color/center_bg"
+                        app:ringWidth="5dp"
+                        app:style="STROKE"
+                        app:textColor="@color/colorPrimary"
+                        app:textIsShow="true"
+                        app:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/counter5Years"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/layout_bg">
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/header10Years"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="6dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/fotter10Years"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="12dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                    <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                        android:id="@+id/progress10Years"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:max="100"
+                        app:ringColor="@color/colorPrimaryDark"
+                        app:ringProgressColor="@color/center_bg"
+                        app:ringWidth="5dp"
+                        app:style="STROKE"
+                        app:textColor="@color/colorPrimary"
+                        app:textIsShow="true"
+                        app:textSize="16sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <TextView
+                        android:text="TextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/counter10Years"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textColor="@color/center_bg"
+                        android:typeface="sans" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"></LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

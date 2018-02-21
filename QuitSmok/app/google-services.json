@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "327145660597",
+    "firebase_url": "https://quitsmok-3cb45.firebaseio.com",
+    "project_id": "quitsmok-3cb45",
+    "storage_bucket": "quitsmok-3cb45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327145660597:android:7e0ab276b872603c",
+        "android_client_info": {
+          "package_name": "com.appteve.quitsmok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327145660597-711tgla7h5tv2q8r5s0i5ijgfu18i1lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-MjDtAhZAU217aILjcjA0ltn2RfgX2yg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

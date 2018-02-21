@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center_vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_bg">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/awardsHeaderText"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="6dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:textAlignment="center"
+                android:textColor="@color/center_bg"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:typeface="sans" />
+
+            <io.netopen.hotbitmapgg.library.view.RingProgressBar
+                android:id="@+id/progressAwards"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:max="100"
+                app:ringColor="@color/colorPrimaryDark"
+                app:ringProgressColor="@color/center_bg"
+                app:ringWidth="5dp"
+                app:style="STROKE"
+                app:textColor="@color/colorPrimary"
+                app:textIsShow="true"
+                app:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/counterAwardsText"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/center_bg"
+                android:fontFamily="sans-serif"
+                android:typeface="sans" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="19dp"
+                android:id="@+id/doneText"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/center_bg"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:typeface="sans" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
