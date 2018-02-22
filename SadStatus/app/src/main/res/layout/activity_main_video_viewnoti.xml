@@ -22,6 +22,7 @@
                     xmlns:card_view="http://schemas.android.com/apk/res-auto"
                     android:layout_width="match_parent"
                     android:layout_gravity="center"
+                    card_view:cardBackgroundColor="@color/colorPrimary"
                     android:layout_height="wrap_content"
                     card_view:cardCornerRadius="3dp"
                     card_view:cardElevation="5dp"
@@ -48,11 +49,11 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:textColor="#000"
+                                android:textColor="#fff"
                                 android:fontFamily="sans-serif-condensed"
                                 android:text="Title"
                                 android:maxLines="1"
-                                android:textSize="15dp"
+                                android:textSize="20dp"
                                 android:layout_margin="10dp"
                                 android:id="@+id/videotitle"/>
 
@@ -93,6 +94,8 @@
                     app:progress_reached_color="#70f741"
                     android:layout_margin="10dp"
                     app:progress_text_size="15dp"
+                    app:progress_reached_bar_height="10dp"
+                    app:progress_unreached_bar_height="10dp"
                     />
                 <com.google.android.gms.ads.AdView
                     xmlns:ads="http://schemas.android.com/apk/res-auto"

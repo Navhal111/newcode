@@ -22,10 +22,9 @@ import com.google.android.gms.gcm.GcmListenerService;
 import java.io.IOException;
 import java.net.URL;
 
-import pistalix.sadvideostatus.sadvideosong.MainActivity;
-import pistalix.sadvideostatus.sadvideosong.MainVideoView;
-import pistalix.sadvideostatus.sadvideosong.MainVideoViewnoti;
-import pistalix.sadvideostatus.sadvideosong.R;
+import mitpi.sadvideostatus.sadvideosong.MainActivity;
+import mitpi.sadvideostatus.sadvideosong.MainVideoViewnoti;
+import mitpi.sadvideostatus.sadvideosong.R;
 
 
 public class MyGcmListenerService extends GcmListenerService {

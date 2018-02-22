@@ -28,3 +28,4 @@
  #### -- Apache Commons --
 
  -dontwarn org.apache.commons.logging.**
+ -dontwarn org.apache.http.**

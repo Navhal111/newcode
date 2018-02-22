@@ -3,7 +3,6 @@ package gcm;
 
 
 import android.app.IntentService;
-import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
@@ -25,7 +24,7 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import pistalix.sadvideostatus.sadvideosong.R;
+import mitpi.sadvideostatus.sadvideosong.R;
 
 //import Config.ConstValue;
 

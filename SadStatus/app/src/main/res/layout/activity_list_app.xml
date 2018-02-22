@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:background="@drawable/whatsappvideos_bg"
-    tools:context="pistalix.sadvideostatus.sadvideosong.ListApp">
+    tools:context="mitpi.sadvideostatus.sadvideosong.ListApp">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"

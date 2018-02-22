@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="pistalix.sadvideostatus.sadvideosong">
+    package="mitpi.sadvideostatus.sadvideosong">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -14,15 +14,16 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <permission
-        android:name="pistalix.sadvideostatus.sadvideosong.permission.C2D_MESSAGE"
+        android:name="mitpi.sadvideostatus.sadvideosong.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="pistalix.sadvideostatus.sadvideosong.permission.C2D_MESSAGE" />
+    <uses-permission android:name="mitpi.sadvideostatus.sadvideosong.permission.C2D_MESSAGE" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
+        android:name="mitpi.sadvideostatus.sadvideosong.MyApplication"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -30,7 +31,7 @@
         <!-- [START gcm_receiver] -->
 
         <receiver
-            android:name=".BootUpReceiver"
+            android:name="mitpi.sadvideostatus.sadvideosong.BootUpReceiver"
             android:enabled="true"
             android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
             <intent-filter>
@@ -77,7 +78,7 @@
             android:exported="false" />
 
         <activity
-            android:name=".Splash"
+            android:name="mitpi.sadvideostatus.sadvideosong.Splash"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -85,17 +86,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WhatsappView" />
-        <activity android:name=".DownloadVideoView" />
-        <activity android:name=".MainVideoView" />
+        <activity android:name="mitpi.sadvideostatus.sadvideosong.WhatsappView" />
+        <activity android:name="mitpi.sadvideostatus.sadvideosong.DownloadVideoView" />
+        <activity android:name="mitpi.sadvideostatus.sadvideosong.MainVideoView" />
         <activity
-            android:name=".ListApp"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity" />
+            android:name="mitpi.sadvideostatus.sadvideosong.ListApp"
+            android:parentActivityName="mitpi.sadvideostatus.sadvideosong.MainActivity" />
+        <activity android:name="mitpi.sadvideostatus.sadvideosong.MainActivity" />
         <activity
             android:name="com.facebook.ads.InterstitialAdActivity"
             android:configChanges="keyboardHidden|orientation" />
-        <activity android:name=".MainVideoViewnoti"/>
+        <activity android:name="mitpi.sadvideostatus.sadvideosong.MainVideoViewnoti"/>
     </application>
 
 </manifest>

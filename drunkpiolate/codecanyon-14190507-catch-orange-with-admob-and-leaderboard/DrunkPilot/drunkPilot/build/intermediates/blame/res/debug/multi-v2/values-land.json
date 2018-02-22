@@ -1,0 +1,53 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/lime/Mitesh Games/drunkpiolate/codecanyon-14190507-catch-orange-with-admob-and-leaderboard/DrunkPilot/drunkPilot/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/home/lime/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/28354a748ff33091237b3ea59ad963b5/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/lime/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.8.0.aar/06d3c5f049e20e39115d1a59898ee006/res/values-land/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "183,264,344,414,483,578",
+                        "endColumns": "80,79,69,68,94,90",
+                        "endOffsets": "263,343,413,482,577,668"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "328,413,497,571,644,743",
+                        "endColumns": "84,83,73,72,98,94",
+                        "endOffsets": "408,492,566,639,738,833"
+                    }
+                },
+                {
+                    "source": "/home/lime/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/f9e0e03fe85dac76750719588291da47/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,208",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "125,203,278"
+                    },
+                    "to": {
+                        "startLines": "12,13,14",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "838,913,991",
+                        "endColumns": "74,77,74",
+                        "endOffsets": "908,986,1061"
+                    }
+                }
+            ]
+        }
+    ]
+}

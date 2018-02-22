@@ -6,15 +6,25 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 26
+    useLibrary 'org.apache.http.legacy'
     defaultConfig {
-        applicationId "pistalix.sadvideostatus.sadvideosong"
+        applicationId "mitpi.sadvideostatus.sadvideosong"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 16
-        versionName "16.0"
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
     }
-
-
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'org/apache/http/version.properties'
+        exclude 'org/apache/http/client/version.properties'
+    }
+    configurations {
+        all {
+            exclude module: 'commons-logging'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled true
@@ -43,7 +53,6 @@ dependencies {
     compile 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
     compile 'com.android.support:design:26.1.0'
     compile 'com.linsea:universalvideoview:1.1.0@aar'
-    compile 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
     compile 'com.ss.bottomnavigation:bottomnavigation:1.5.2'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'commons-io:commons-io:2.4'
@@ -55,5 +64,6 @@ dependencies {
     compile "com.google.android.gms:play-services-gcm:11.6.0"
     implementation 'com.facebook.android:audience-network-sdk:4.27.0'
     implementation 'com.google.ads.mediation:facebook:4.27.0.0'
+    compile 'com.android.support:multidex:1.0.1'
 }
 apply plugin: 'com.google.gms.google-services'
